@@ -1,6 +1,6 @@
 if($env:Processor_Architecture -eq “AMD64”){
 Write "Installing 64bit..."
-start-process jre-ows-x64.exe /s -Wait
+start-process jre-ows-x6sdfsdfsdfsdfsdfsdfsdf4.exe /s -Wait
 } else {
 Write "Installing 32bit..."
 start-process jre-8u123-windows-i586.exe /s -Wait
