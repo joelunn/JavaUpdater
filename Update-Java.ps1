@@ -7,7 +7,7 @@ start-process jre-8u123-windows-i586.exe /s -Wait
 }
 Start-Sleep -s 120
 
-# IMPORTANT NOTE: If you would like Java versions 6 and below to remain, please edit the next line and replace $true with $False2
+# IMPORTANT NOTE: If you would like Java versions 6 and below to remain, please edit the next line and replace $true with $False22
 $UninstallJava6andBelow = $true
 
 #Declare version arrays
