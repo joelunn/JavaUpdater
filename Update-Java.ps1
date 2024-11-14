@@ -1,13 +1,13 @@
 if($env:Processor_Architecture -eq “AMD64”){
 Write "Installing 64bit..."
-start-process jre-ows-x6sdfsdfsdfsdfsdfsdfsdf4.exe /s -Wait
+start-process jre.exe /s -Wait
 } else {
 Write "Installing 32bit..."
 start-process jre-8u123-windows-i586.exe /s -Wait
 }
 Start-Sleep -s 120
 
-# IMPORTANT NOTE: If you would like Java versions 6 and below to remain, please edit the next line and replace $true with $False22
+# IMPORTANT NOTE: If you would like Java versions 6 and below to remain, please edit the next line and replace $true with $False
 $UninstallJava6andBelow = $true
 
 #Declare version arrays
